@@ -7,15 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d62435e-8d27-4b90-a271-aa6746b89542" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smarthome/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/smarthome/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/smarthome/resources/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/smarthome/resources/css/home.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,23 +26,24 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="245" />
+          <entry key="css" value="438" />
           <entry key="java" value="154" />
-          <entry key="jsp" value="594" />
+          <entry key="jsp" value="1135" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="245" />
+          <entry key="CSS" value="438" />
           <entry key="JAVA" value="154" />
-          <entry key="JSP" value="594" />
+          <entry key="JSP" value="1135" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -89,8 +86,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="14" column="215" selection-start-line="14" selection-start-column="215" selection-end-line="14" selection-end-column="215" />
+                <state relative-caret-position="349">
+                  <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+                  <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+                  <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+                  <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+                  <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+                  <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+                  <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -98,8 +101,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+                <state relative-caret-position="210">
+                  <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -115,7 +118,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
+                <state relative-caret-position="315">
                   <caret line="30" selection-start-line="30" selection-end-line="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -139,12 +142,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/home.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -174,8 +177,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/styles/home.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/home.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/home.css" />
       </list>
     </option>
   </component>
@@ -206,7 +209,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,12 +246,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533829851820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533851109974" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -357,11 +360,12 @@
       <updated>1533741128379</updated>
       <workItem from="1533741132630" duration="3111000" />
       <workItem from="1533798285706" duration="7140000" />
+      <workItem from="1533842543177" duration="6476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10251000" />
+    <option name="totallyTimeSpent" value="16727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -420,6 +424,26 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -430,33 +454,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="349">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/home.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="215" selection-start-line="14" selection-start-column="215" selection-end-line="14" selection-end-column="215" />
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>

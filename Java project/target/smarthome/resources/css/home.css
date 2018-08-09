@@ -1,6 +1,18 @@
 #welcome{
-    height:7%;
-    background-color: antiquewhite;
-    font-;
-    font-size: 250%;
+    font-size:250%;
+    font-family: Times New Roman, serif;
+    background-color: #adff87;
+}
+.module{
+    border: 2px solid #adff87;
+    background-color: #fffadd;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+body{
+    background-color: #fffcea;
+}
+.h100{
+    height: 100px;
 }
