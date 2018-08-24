@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8" isELIgnored="false"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="sec"
+	uri="http://www.springframework.org/security/tags"%>
+<%@ page session="true"%>
+
+<sec:authentication var="principal" property="principal" />
+
+<p class='main-menu'>
+	<c:choose>
+		<c:when test="${principal == 'anonymousUser'}">
+			<a href='register'>Register</a>
+			<a href='login'>Login</a>
+		</c:when>
+		<c:otherwise>
+			<p>
+				You are signed in as: ${principal.username} <a
+					href="<c:url value="logout" />"> Logout </a>
+			</p>
+		</c:otherwise>
+	</c:choose>
+</p>

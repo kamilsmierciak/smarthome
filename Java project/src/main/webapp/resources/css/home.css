@@ -16,3 +16,9 @@ body{
 .h100{
     height: 100px;
 }
+.cl{
+    background-color: lightgreen;
+}
+.mov{
+    box-shadow: 6px 6px 2px lightgreen;
+}
