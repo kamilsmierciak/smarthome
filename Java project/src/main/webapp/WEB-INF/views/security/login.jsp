@@ -36,13 +36,17 @@
 <p class='error'>${msg}</p>
 <form method="post">
     <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-md-auto">
-                <p>
-                    Username <input type="text" name="username" placeholder=""/>
-                </p>
+        <video width="400" autoplay muted loop id="video">
+            <source src="${wideo}" type="video/mp4">
+        </video>
+        <div class="myContent">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <p>
+                        Username <input type="text" name="username" placeholder=""/>
+                    </p>
+                </div>
             </div>
-        </div>
             <div class="row justify-content-md-center">
                 <div class="col-md-auto">
                     <p>
@@ -58,14 +62,21 @@
                 </p>
             </div>
         </div>
-
+    </div>
 
 </form>
 <%@ include file="jspf/footer.jspf" %>
 </div>
-    <video autoplay muted loop id="video">
-        <source src="${wideo}" type="wideo/mp4">
-    </video>
+
+
+
+
+    <%--<video autoplay muted loop id="video">--%>
+        <%--<source src="${wideo}" type="wideo/mp4">--%>
+    <%--</video>--%>
+
+
+
 </div>
 </body>
 </html>

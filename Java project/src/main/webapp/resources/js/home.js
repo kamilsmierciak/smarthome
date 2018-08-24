@@ -26,21 +26,23 @@ $(document).ready(function () {
             method: "GET",
             url: "http://espkamil.local/json",
             data: "JSON"
-        }).done(function (data) {
-            ledstat = JSON.parse(data);
-            if (ledstat.status.equals("off")) {
+        }).done(function (status) {
+            // ledstat = JSON.parse(data);
+            if (status.plug === "off") {
+                stat.html("ON");
                 $.ajax({
                     method: "GET",
-                    url: "http://192.168.88.47/led?turn=on",
+                    url: "http://espkamil.local/plug?turn=on",
                 }).done(function () {
                     console.log('hura');
                 }).fail(function (xhr, status, errorThrown) {
                     console.log("BŁĄD!", xhr, status, errorThrown);
                 });
             } else {
+                stat.html("OFF");
                 $.ajax({
                     method: "GET",
-                    url: "http://192.168.88.47/led?turn=off"
+                    url: "http://espkamil.local/plug?turn=off"
                 }).done(function () {
                     console.log('hura');
                 }).fail(function (xhr, status, errorThrown) {
@@ -54,21 +56,23 @@ $(document).ready(function () {
     function plugStat(){
         $.ajax({
             method: "GET",
-            url: "http://espkamil.local/json"
-        }).done(function(plug){
-            var json = JSON.parse(plug);
-            plugstatString = json.plug;
+            url: "http://espkamil.local/json",
+            data: "JSON"
+        }).done(function(status){
+            // var json = JSON.parse(plug);
+            // plugstatString = status.plug;
+            stat.html(status.plug);
         })
-    };
+    }
     plugStat();
 
-    stat.innerHTML = plugstatString;
+
 
     colorpicker.css("display", "none");
 
     lights.click(function(){
         colorpicker.slideDown()
-    })
+    });
 
     colorPickerInput.click(function () {
         var red ="";
@@ -81,21 +85,18 @@ $(document).ready(function () {
             blue = b;
         }
         eval(colors1);
-        var json = '"red":' + red +', "green":'+green+', "blue":'+ blue+'}';
         $.ajax({
-            url: "http://espkamil.local/rgb",
-            type: "POST",
-            data: JSON.stringify(json),
-            contentType: "application/json"
-        }).done(
-            console.log("wysłano jsona")
-        ).fail(
-            console.log("Nic nie działa!! Dzwoń po JSONA")
-        )
+            method: "GET",
+            url: "http://espkamil.local/rgb?r="+red+"&g="+green+"&b="+blue,
+        }).done(function () {
+            console.log('hura');
+        }).fail(function (xhr, status, errorThrown) {
+            console.log("BŁĄD!", xhr, status, errorThrown);
+        });
 
-    })
+    });
     drive.click(function(){
-        window.location.replace("ftp://10.156.86.197:2221");
+        window.location.replace("ftp://192.168.88.50:2221");
     })
 
 });
