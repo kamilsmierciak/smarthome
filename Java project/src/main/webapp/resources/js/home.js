@@ -96,7 +96,7 @@ $(document).ready(function () {
 
     });
     drive.click(function(){
-        window.location.replace("ftp://192.168.88.50:2221");
+        window.location.replace("ftp://10.156.86.197:2221");
     })
 
 });
